@@ -87,6 +87,9 @@
 		<Unit filename="/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/main.c">
 			<Option target="Banquise"/>
 		</Unit>
+		<Unit filename="/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/termcolor.h">
+			<Option target="Banquise"/>
+		</Unit>
 		<Unit filename="/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

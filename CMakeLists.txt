@@ -3,4 +3,4 @@ project(Banquise C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Banquise main.c banquise.h banquise.c)
+add_executable(Banquise main.c banquise.h banquise.c termcolor.h)

@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include "banquise.h"
+#include "termcolor.h"
 
 #define RAND_MAX 101
 
@@ -78,7 +79,7 @@ void printBanquise(T_banquise *banquise)
     //Upper line
     printf("\n");
     for(int i = 0; i < banquise->size * 4 + 1; i++)
-        printf("-");
+        printf("-", text_white(stdout));
 
     //Floe
     int counter = banquise->size;
@@ -90,19 +91,28 @@ void printBanquise(T_banquise *banquise)
             if(counter == banquise->size)
             {
                 printf("\n");
-                printf("| ");
+                printf("| ", text_white(stdout));
                 counter = 0;
             }
 
             if(banquise->square[i][j].object == 1)
-                printf("o | ");
+            {
+                printf("o", text_yellow(stdout));
+                printf(" | ", text_white(stdout));
+            }
+
 
             else if(banquise->square[i][j].ice == 1)
-                printf("# | ");
+            {
+                printf("#", text_bold(stdout));
+                printf(" | ", text_white(stdout));
+            }
 
             else if(banquise->square[i][j].ice == 0)
-                printf("~ | ");
-
+            {
+                printf("~", text_blue(stdout));
+                printf(" | ", text_white(stdout));
+            }
 
             counter++;
         }

@@ -3,6 +3,7 @@
 
 CMakeFiles/Banquise.dir/banquise.c.o: ../banquise.c
 CMakeFiles/Banquise.dir/banquise.c.o: ../banquise.h
+CMakeFiles/Banquise.dir/banquise.c.o: ../termcolor.h
 
 CMakeFiles/Banquise.dir/main.c.o: ../banquise.h
 CMakeFiles/Banquise.dir/main.c.o: ../main.c

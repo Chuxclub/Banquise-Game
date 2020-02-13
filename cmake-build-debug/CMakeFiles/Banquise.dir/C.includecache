@@ -15,6 +15,8 @@ time.h
 -
 banquise.h
 /home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/banquise.h
+termcolor.h
+/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/termcolor.h
 
 /home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/banquise.h
 
@@ -25,4 +27,12 @@ stdlib.h
 -
 banquise.h
 /home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/banquise.h
+
+/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/termcolor.h
+unistd.h
+-
+stdio.h
+-
+stdbool.h
+-
 
