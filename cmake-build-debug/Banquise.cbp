@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug"/>
+				<Option working_dir="/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug"/>
+				<Option working_dir="/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug"/>
+				<Option working_dir="/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Banquise">
-				<Option output="/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Banquise" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug"/>
+				<Option output="/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Banquise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 Banquise"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 Banquise"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Banquise/fast">
-				<Option output="/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Banquise" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug"/>
+				<Option output="/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Banquise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,23 +71,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 Banquise/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 Banquise/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/banquise.c">
+		<Unit filename="/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/banquise.c">
 			<Option target="Banquise"/>
 		</Unit>
-		<Unit filename="/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/banquise.h">
+		<Unit filename="/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/banquise.h">
 			<Option target="Banquise"/>
 		</Unit>
-		<Unit filename="/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/main.c">
+		<Unit filename="/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/main.c">
 			<Option target="Banquise"/>
 		</Unit>
-		<Unit filename="/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/CMakeLists.txt">
+		<Unit filename="/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

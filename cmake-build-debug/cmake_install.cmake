@@ -1,4 +1,4 @@
-# Install script for directory: /home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise
+# Install script for directory: /home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/crex/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

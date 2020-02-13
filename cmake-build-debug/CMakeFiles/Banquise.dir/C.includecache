@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/banquise.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+banquise.h
+/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/banquise.h
+
+/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/banquise.h
+
+/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/main.c
+stdio.h
+-
+stdlib.h
+-
+banquise.h
+/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise-Game/banquise.h
+
