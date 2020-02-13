@@ -23,7 +23,7 @@ typedef struct
 
 typedef struct
 {
-    T_case **square;
+    T_case **grid;
     int size;
 }T_banquise;
 

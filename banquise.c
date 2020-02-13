@@ -16,20 +16,20 @@ T_banquise initBanquise(int size)
     T_banquise res;
 
     res.size = size;
-    res.square = (T_case **) malloc(sizeof(T_case *) * size);
+    res.grid = (T_case **) malloc(sizeof(T_case *) * size);
 
     for(int i = 0; i < size;  i++)
-        res.square[i] = (T_case *) malloc(sizeof(T_case) * size);
+        res.grid[i] = (T_case *) malloc(sizeof(T_case) * size);
 
     for(int i = 0; i < size; i++)
     {
         for(int j = 0; j < size; j++)
         {
-            res.square[i][j].ice = 1;
-            res.square[i][j].player = 0;
-            res.square[i][j].object = 0;
-            res.square[i][j].A = 0;
-            res.square[i][j].B = 0;
+            res.grid[i][j].ice = 1;
+            res.grid[i][j].player = 0;
+            res.grid[i][j].object = 0;
+            res.grid[i][j].A = 0;
+            res.grid[i][j].B = 0;
         }
 
     }
@@ -48,8 +48,8 @@ void addWater(T_banquise *banquise)
         {
             int loto = rand() % RAND_MAX;
 
-            if(loto < 20)
-                banquise->square[i][j].ice = 0;
+            if(loto < 15)
+                banquise->grid[i][j].ice = 0;
         }
     }
 }
@@ -67,21 +67,44 @@ void addRocks(T_banquise *banquise)
         {
             int loto = rand() % RAND_MAX;
 
-            if(loto < 25 && banquise->square[i][j].ice == 1)
-                banquise->square[i][j].object = 1;
+            if(loto < 20 && banquise->grid[i][j].ice == 1)
+                banquise->grid[i][j].object = 1;
         }
+    }
+}
+
+//Affiche un code d'une case avec le symbole correspondant
+//Suit ordre logique: A/B > object > player > ice
+void printCase(T_case banquise_case)
+{
+    if(banquise_case.object == 1)
+    {
+        printf("o", text_yellow(stdout));
+        printf(" | ", text_white(stdout));
+    }
+
+    else if(banquise_case.ice == 0)
+    {
+        printf("~", text_blue(stdout));
+        printf(" | ", text_white(stdout));
+    }
+
+    else
+    {
+        printf("#", text_bold(stdout));
+        printf(" | ", text_white(stdout));
     }
 }
 
 //Affiche l'état de la banquise à l'instant de son appel
 void printBanquise(T_banquise *banquise)
 {
-    //Upper line
+    //Upper Border
     printf("\n");
     for(int i = 0; i < banquise->size * 4 + 1; i++)
         printf("-", text_white(stdout));
 
-    //Floe
+    //Grid
     int counter = banquise->size;
 
     for(int i = 0; i < banquise->size; i++)
@@ -91,37 +114,22 @@ void printBanquise(T_banquise *banquise)
             if(counter == banquise->size)
             {
                 printf("\n");
+
+                //Right border of grid
                 printf("| ", text_white(stdout));
                 counter = 0;
             }
 
-            if(banquise->square[i][j].object == 1)
-            {
-                printf("o", text_yellow(stdout));
-                printf(" | ", text_white(stdout));
-            }
-
-
-            else if(banquise->square[i][j].ice == 1)
-            {
-                printf("#", text_bold(stdout));
-                printf(" | ", text_white(stdout));
-            }
-
-            else if(banquise->square[i][j].ice == 0)
-            {
-                printf("~", text_blue(stdout));
-                printf(" | ", text_white(stdout));
-            }
+            printCase(banquise->grid[i][j]);
 
             counter++;
         }
-    }
 
-    //Down line
-    printf("\n");
-    for(int i = 0; i < banquise->size * 4 + 1; i++)
-        printf("-");
+        //Mid-lines + Bottom border
+        printf("\n");
+        for(int i = 0; i < banquise->size * 4 + 1; i++)
+            printf("-");
+    }
 
     //Newline
     printf("\n");
