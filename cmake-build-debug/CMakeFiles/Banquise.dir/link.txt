@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Banquise.dir/main.c.o CMakeFiles/Banquise.dir/banquise.c.o  -o Banquise 

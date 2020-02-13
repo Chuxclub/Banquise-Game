@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/banquise.c
+
+/home/florian/MEGA/Bureau/Etudes/UE3_C/Projet_Prog/Banquise/main.c
+stdio.h
+-
+stdlib.h
+-
+
