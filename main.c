@@ -10,62 +10,62 @@ typedef struct
     int object;
     int A;
     int B;
-} square;
+} T_case;
 
 typedef struct
 {
-    square **square;
+    T_case **square;
     int size;
-}floe;
+}T_banquise;
 
-floe init_floe(int size)
+T_banquise init_floe(int size)
 {
-    floe res_floe;
+    T_banquise res;
 
-    res_floe.size = size;
-    res_floe.square = (square **) malloc(sizeof(square *) * size);
+    res.size = size;
+    res.square = (T_case **) malloc(sizeof(T_case *) * size);
 
     for(int i = 0; i < size;  i++)
-        res_floe.square[i] = (square *) malloc(sizeof(square) * size);
+        res.square[i] = (T_case *) malloc(sizeof(T_case) * size);
 
     for(int i = 0; i < size; i++)
     {
         for(int j = 0; j < size; j++)
         {
-            res_floe.square[i][j].ice = 1;
-            res_floe.square[i][j].player = 0;
-            res_floe.square[i][j].object = 0;
-            res_floe.square[i][j].A = 0;
-            res_floe.square[i][j].B = 0;
+            res.square[i][j].ice = 1;
+            res.square[i][j].player = 0;
+            res.square[i][j].object = 0;
+            res.square[i][j].A = 0;
+            res.square[i][j].B = 0;
         }
 
     }
 
-    return res_floe;
+    return res;
 }
 
-void printFloe(floe *user_floe)
+void printFloe(T_banquise *banquise)
 {
     //Upper line
     printf("\n");
-    for(int i = 0; i < user_floe->size * 4 + 1; i++)
+    for(int i = 0; i < banquise->size * 4 + 1; i++)
         printf("-");
 
     //Floe
-    int counter = user_floe->size;
+    int counter = banquise->size;
 
-    for(int i = 0; i < user_floe->size; i++)
+    for(int i = 0; i < banquise->size; i++)
     {
-        for(int j = 0; j < user_floe->size; j++)
+        for(int j = 0; j < banquise->size; j++)
         {
-            if(counter == user_floe->size)
+            if(counter == banquise->size)
             {
                 printf("\n");
                 printf("| ");
                 counter = 0;
             }
 
-            if(user_floe->square[i][j].ice == 1)
+            if(banquise->square[i][j].ice == 1)
                 printf("# | ");
 
             counter++;
@@ -74,7 +74,7 @@ void printFloe(floe *user_floe)
 
     //Down line
     printf("\n");
-    for(int i = 0; i < user_floe->size * 4 + 1; i++)
+    for(int i = 0; i < banquise->size * 4 + 1; i++)
         printf("-");
 
     //Newline
@@ -84,7 +84,7 @@ void printFloe(floe *user_floe)
 int main()
 {
     //printf("Hey!");
-    floe myFloe = init_floe(FLOE_SIZE);
+    T_banquise myFloe = init_floe(FLOE_SIZE);
 
     //printf("Taille banquise: %i", myFloe.square[0][0].ice);
 
